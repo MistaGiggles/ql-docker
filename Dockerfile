@@ -36,9 +36,9 @@ COPY server.sh ql/
 RUN chown quake:quake ql/server.sh
 COPY server.cfg ql/baseq3/
 RUN chown quake:quake ql/baseq3/server.cfg
-COPY mappool_turboca.txt ql/baseq3/
-RUN chown quake:quake ql/baseq3/mappool_turboca.txt
-COPY turboca.factories ql/baseq3/scripts/
+COPY mappool_freezetag.txt ql/baseq3/
+RUN chown quake:quake ql/baseq3/mappool_freezetag.txt
+COPY freezetag.factories ql/baseq3/scripts/
 RUN chown -R quake:quake ql/baseq3/scripts
 COPY workshop.txt ql/baseq3/
 RUN chown quake:quake ql/baseq3/workshop.txt

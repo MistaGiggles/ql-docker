@@ -1,0 +1,6 @@
+# specify 1 map per line, mapname|factoryid
+# ex: aerowalk|ffa
+# see factories.txt for valid factory id values
+asylum|freezetag
+blackcathedral|freezetag
+drunkenmummy|freezetag
