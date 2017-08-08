@@ -1,0 +1,14 @@
+{
+    "cvars": {
+        "g_dropCmds": "6",
+        "g_loadout": "1",
+        "timelimit": "15",
+        "fraglimit": "0",
+        "g_overtime": "0"
+    },
+    "author": "id Software",
+    "description": "Default gametype settings.",
+    "basegt": "ft",
+    "id": "ft",
+    "title": "Freeze Tag"
+}
